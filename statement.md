@@ -1,11 +1,14 @@
-# Welcome!
+# Different Python Programs!
 
-This Python template lets you get started quickly with a simple one-page playground.
+Collection of Python Programs to program compound interest using [Python](https://thecodezine.com)
 
 ```python runnable
-print('Hello World!')
+#Given Values
+def compound_interest(principle, rate, time):
+    #Code to calculate compound interest
+    CIn = principle *(pow((1+rate/100), time))
+    print("Compound interest is",CIn)
+# Code for Drive
+compound_interest(1200,5.25,6)
 ```
 
-# Advanced usage
-
-If you want a more complex example (external libraries, viewers...), use the [Advanced Python template](https://tech.io/select-repo/429)
